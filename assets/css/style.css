@@ -1,0 +1,101 @@
+header{
+    /* display: flex; */
+    justify-content: space-between;
+    background-color: lightcoral;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 35px;
+}
+body{
+    flex-direction: column;
+    
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+    background-color: lightcoral;
+    
+    
+}
+
+
+nav {
+ text-align: center;
+ justify-content: space-between;
+
+}
+
+nav ul {
+    justify-content: space-between;
+    text-decoration: none;
+    /* padding-right: 35px; */
+    
+    
+}
+nav ul li {
+    
+    display: inline;
+    padding-right: 35px;
+}
+
+nav ul li:hover{
+    color: purple;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+section{
+    width: 90%;
+    border: 5px solid blue;
+    margin: 50px;
+    padding: 100px;
+
+}
+
+#work{
+float: left;
+}
+
+section:hover {
+    color: grey;
+}
+
+img{
+    justify-content: center;
+    width: 100px;
+
+}
+
+main div section{
+    flex-direction: column;
+}
+
+p{
+    flex-direction: row;
+    justify-content: left;
+}
+
+#workpic{
+    width: 50%;
+}
+
+#p1 {
+    float: right;
+}
+
+p{
+    padding: 30px;
+}
