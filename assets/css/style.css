@@ -1,5 +1,5 @@
 header {
-    /* display: flex; */
+     display: flex;
     padding-right: 100%;
     justify-content: space-between;
     background-color: lightcoral;
@@ -31,7 +31,7 @@ nav {
 nav ul {
     justify-content: space-between;
     text-decoration: none;
-    /* padding-right: 35px; */
+     padding-right: 35px; 
 
 
 }
@@ -95,13 +95,9 @@ p {
 }
 
 #workpic {
-    width: 100%;
+    width: 60%;
 }
 
 #p1 {
     float: right;
-}
-
-#pic{
-    width: 50%;
-}
+} 
